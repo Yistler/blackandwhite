@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Black and White Spa</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Procesar Imagen en Blanco y Negro</h1>
+  <form action="/process-image" method="POST">
+    <label for="imageUrl">URL de la Imagen:</label>
+    <input type="text" id="imageUrl" name="imageUrl" required>
+    <button type="submit">Procesar</button>
+  </form>
+
+  <section>
+    <img src="./images/mujer-feliz.jpg" alt="mujer a color" class="imagen1">
+    <img src="./images/arrow-removebg-preview.png" alt="flecha" class="imagenflecha">
+    <img src="./images/55238b.jpg" alt="mujer a gris" class="imagen1">
+  </section>
+</body>
+</html>
